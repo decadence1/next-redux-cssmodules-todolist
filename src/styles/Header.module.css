@@ -1,0 +1,13 @@
+.header {
+  padding: 50px;
+  text-align: center;
+  border-bottom: 2px solid #dddddd;
+  display: flex;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 64px;
+  color: #535353;
+  font-family: "Lobster", cursive;
+}

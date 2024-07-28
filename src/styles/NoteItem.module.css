@@ -1,0 +1,68 @@
+.noteItem {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 4px;
+  max-width: 800px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.noteItem h2 a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.noteItem h2 a:hover {
+  text-decoration: none;
+}
+
+.completed {
+  background: linear-gradient(135deg, #e0ffe0, #b8ffb8);
+  opacity: 0.6;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox:checked {
+  background-color: gray;
+  border-color: gray;
+}
+
+.checkbox:checked::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.fadeOut {
+  opacity: 0;
+  transform: translateY(20px);
+}

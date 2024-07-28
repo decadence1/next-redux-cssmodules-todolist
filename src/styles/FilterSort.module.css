@@ -1,0 +1,35 @@
+.filterSortContainer {
+  display: flex;
+
+  margin-bottom: 20px;
+}
+
+.filterButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  cursor: pointer;
+  transition: background 0.7s;
+  margin-right: 10px;
+}
+
+.filterButton:hover {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+.allButton {
+  border: 2px solid rgb(228, 228, 228);
+  font-family: "Roboto", sans-serif;
+  color: gray;
+  background: linear-gradient(45deg, #ffffff, #e0f7fa);
+}
+
+.completedButton {
+  background: linear-gradient(135deg, #76b852, #8dc26f);
+}
+
+.inProgressButton {
+  background: linear-gradient(135deg, #ff9966, #ff5e62);
+}
