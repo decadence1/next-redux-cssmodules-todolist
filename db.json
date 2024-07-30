@@ -1,3 +1,32 @@
 {
-  "notes": []
+  "notes": [
+    {
+      "id": "1305",
+      "title": "Завтрак",
+      "content": "Омлет, кофе, салат, тост",
+      "createdAt": "2024-07-29T11:55:21.936Z",
+      "completed": true
+    },
+    {
+      "id": "9e6f",
+      "title": "dsa",
+      "content": "dsalll",
+      "createdAt": "2024-07-29T16:38:23.387Z",
+      "completed": true
+    },
+    {
+      "id": "3cd7",
+      "title": "fff",
+      "content": "fff",
+      "createdAt": "2024-07-29T16:38:28.073Z",
+      "completed": false
+    },
+    {
+      "id": "cb0d",
+      "title": "dsa",
+      "content": "dsaaa",
+      "createdAt": "2024-07-29T16:39:31.970Z",
+      "completed": false
+    }
+  ]
 }
